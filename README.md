@@ -8,7 +8,7 @@ cd path/to/workdir
 
 Download and unzip pre-processed RNA-Seq data "GSE142206_counts.txt.gz" (a text file containing raw counts per gene across conditions) and "GSE142206_tpms.txt.gz" (a text file containing normalized expression per gene in TPM units across conditions) published in GEO in the working directory (see https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142206). The analysis is based on processing these data files.  
 
-The directory execute the following scripts in the indicated order:
+Execute the following scripts in the indicated order:
 1. Create a table matching ensembl gene ids and gene symbols by running:
 ```bash
 sh 01_GeneIdGeneName.sh
