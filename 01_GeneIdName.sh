@@ -1,3 +1,9 @@
+#!/usr/bin/env bash
+
+### Created: Jan 27, 2020
+### Author: Anastasiya Boersch
+### Company: Zavolan Group, Biozentrum, University of Basel
+
 # Download human GTF
 wget ftp://ftp.ensembl.org/pub/release-96/gtf/homo_sapiens/Homo_sapiens.GRCh38.96.gtf.gz
 gunzip Homo_sapiens.GRCh38.96.gtf.gz
